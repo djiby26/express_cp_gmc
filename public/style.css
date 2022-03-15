@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  background-color: rgba(206, 187, 109, 0.707);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2rem;
+}
+
+.nav li {
+  list-style: none;
+}
+.nav a {
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+li:hover {
+  text-decoration: underline;
+}
